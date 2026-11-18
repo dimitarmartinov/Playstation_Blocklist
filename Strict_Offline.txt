@@ -1,0 +1,73 @@
+! Title: Strict PS4 & PS5 Offline / Jailbreak Blocklist
+! Format: AdGuard Home
+! Purpose: Blocks all firmware updates, game patches, PSN checks, telemetry, and ads
+
+! =============================================================================
+! Firmware & System Updates (All Regions)
+! =============================================================================
+||update.playstation.net^
+||update.playstation.org.edgesuite.net^
+||ps4updptl.eu.np.community.playstation.net^
+||ps4updptl.jp.sp-int.community.playstation.net^
+||ps4updptl.uk.np.community.playstation.net^
+||ps4updptl.us.np.community.playstation.net^
+||ps4.updptl.sp-int.community.playstation.net^
+
+! =============================================================================
+! Game Updates, Patches & Content Delivery
+! =============================================================================
+||gst.prod.dl.playstation.net^
+||sgst.prod.dl.playstation.net^
+||gs2.ww.prod.dl.playstation.net^
+||gs-sec.ww.np.dl.playstation.net^
+||ps4-eb.ww.np.dl.playstation.net^
+||ps4-system.sec.np.dl.playstation.net^
+||envelope2.np.dl.playstation.net^
+||qgve.dl.playstation.net^
+||uef.np.dl.playstation.net^
+||themis.dl.playstation.net^
+||tmdb.np.dl.playstation.net^
+||fswitch.dl.playstation.net^
+||rnps-crl.dl.playstation.net^
+||crepo.ww.dl.playstation.net^
+||legaldoc.dl.playstation.net^
+||manuals.playstation.net^
+
+! =============================================================================
+! Telemetry, Analytics, Crash Reports & Ads
+! =============================================================================
+||np.ad.playstation.net^
+||://playstation.com^
+||://playstation.com^
+||telemetry-schema-app.rnps.dl.playstation.net^
+||mercury.dl.playstation.net^
+||nsx.np.dl.playstation.net^
+||nsx-e.np.dl.playstation.net^
+||event.api.np.km.playstation.net^
+||sf.api.np.km.playstation.net^
+
+! =============================================================================
+! PSN Sign-In, Store, Connectivity Checks & Community
+! =============================================================================
+||playstation.com^
+||playstation.sony.akadns.net^
+||ps5.np.playstation.net^
+||ena.net.playstation.net^
+||get.net.playstation.net^
+||post.net.playstation.net^
+||us.np.stun.playstation.net^
+||cfss.crs.playstation.net^
+||ecode.np.cs.playstation.net^
+||commerce.api.np.km.playstation.net^
+||asm.np.community.playstation.net^
+||csla.np.community.playstation.net^
+||static-resource.np.community.playstation.net^
+||t-prof.np.community.playstation.net^
+
+! =============================================================================
+! Legacy PlayStation CDNs
+! =============================================================================
+||a192.d.akamai.net^
+||api-p014.ribob01.net^
+||apicdn-p014.ribob01.net^
+||artcdnsecure.ribob01.net^

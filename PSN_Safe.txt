@@ -1,0 +1,31 @@
+! Title: PSN-Safe PS4 & PS5 Firmware, Telemetry & Ads Blocklist
+! Format: AdGuard Home
+! Purpose: Blocks system firmware updates, telemetry, and ads while keeping PSN, PS Store, and multiplayer working
+
+! =============================================================================
+! Firmware & System Updates (PS3, PS4, PS5 - All Regions)
+! =============================================================================
+||update.playstation.net^
+||update.playstation.org.edgesuite.net^
+||ps4updptl.eu.np.community.playstation.net^
+||ps4updptl.jp.sp-int.community.playstation.net^
+||ps4updptl.uk.np.community.playstation.net^
+||ps4updptl.us.np.community.playstation.net^
+||ps4.updptl.sp-int.community.playstation.net^
+
+! =============================================================================
+! Telemetry, Analytics & Crash Reporting (PS4 & PS5)
+! =============================================================================
+||://playstation.com^
+||://playstation.com^
+||telemetry-schema-app.rnps.dl.playstation.net^
+||mercury.dl.playstation.net^
+||nsx.np.dl.playstation.net^
+||nsx-e.np.dl.playstation.net^
+||event.api.np.km.playstation.net^
+||sf.api.np.km.playstation.net^
+
+! =============================================================================
+! PlayStation Ads & Promotional Tracking
+! =============================================================================
+||np.ad.playstation.net^
